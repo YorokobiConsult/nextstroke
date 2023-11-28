@@ -1,0 +1,92 @@
+#home-page {
+    background-image: url('images/home_bg.jpg');
+    height: 1vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black; 
+}
+
+#second-page {
+    background-image: url('images/second_bg.jpg');
+    height: 1vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black; 
+}
+
+
+.h1SecondPage {
+    text-align: left;
+}
+.para-style {
+    font-size: large;
+    text-align: left;
+    color: azure;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 70px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center
+}
+
+.container2 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.firstChildDiv {
+width: 70%;
+}
+
+.startButton {
+    display: flex;
+    z-index: 10000;
+}
+
+
+
+.dick-div {
+    width: 500px; 
+    height: 300px; 
+    border-radius: 21px 21px 0 0
+}
+
+/* Initially hide the Dick element */
+.hidden {
+    opacity: 0;
+    transform: translateY(0.5px); /* Add a slight vertical translation for a subtle effect */
+    transition: opacity 1.5s ease, transform 1.5s ease;
+  }
+
+.hiddenText {
+    opacity: 0;
+    transform: translateY(27px); /* Add a slight vertical translation for a subtle effect */
+    transition: opacity 1.5s ease, transform 2.0s ease;
+  }
+
+
+  /* Display the element when it's not hidden */
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+
+.footerParagraph{
+    font-size: large;
+    text-align: left;
+    color: #ffd700;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+
