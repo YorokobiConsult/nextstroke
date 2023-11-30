@@ -113,3 +113,20 @@ footer {
 }
 
 
+@media only screen and (max-width: 600px) {
+    #section1SecondPage {
+        display: flex !important;
+        flex-direction: column !important;
+        flex: 1; /* This ensures #section1SecondPage takes the remaining vertical space */
+    }
+
+    .firstChildDiv {
+        display: block;
+        flex: 1; /* Take remaining vertical space within #section1SecondPage */
+    }
+
+    #dickDiv {
+        display: block;
+        flex: 1; /* Take remaining vertical space within #section1SecondPage */
+    }
+}
