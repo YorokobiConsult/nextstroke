@@ -61,8 +61,7 @@ $(document).ready(function() {
 //  Second Page Pressing the Start Button 
 $("#startButtonID").click(function() {
     // Select the element to fade in
-    var fadeInElement = $(".fadeInElement");
-    var hiddenElement = $(".hidden");
+    var hiddenElement = $(".hidden1");
   
     // Add the 'visible' class to trigger the fade-in effect
     hiddenElement.addClass("visible");
