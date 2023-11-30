@@ -78,12 +78,15 @@ $("#startButtonID").click(function(e){
   setTimeout(function() { manyParticles(10), manyParticles(10)}, 700);
   setTimeout(function() { manyParticles(10)}, 1700);
   setTimeout(function() { manyParticles(2)}, 250);
-  setTimeout(function() { manyParticles(170)}, 3700)
-  setTimeout(function() { manyParticles(57)}, 4000)
-  setTimeout(function(){  $(".footerParagraph").text("Exit with flair, you have now mastered the art of NextStoke - also now you own me a fancy diner. Thank you very much 😊 ")}, 5200)
+  setTimeout(function() { manyParticles(170)}, 3700);
+  setTimeout(function() { manyParticles(57)}, 4000);
+  setTimeout(function(){  $(".footerParagraph").addClass("visible")}, 5070)
+
 } );
 
 //$("#startButtonID").resize(function() {resizeCanvas})
+
+
 window.addEventListener("resize", resizeCanvas);
 
 resizeCanvas();
